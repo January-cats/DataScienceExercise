@@ -5,6 +5,8 @@
 使い方は、3つのファイル（smod.py, smoking_drinking_dataset_Ver01.csv, smoking_drinking_dataset_Ver01_mini.csv）を同じディレクトリに入れて、smod.py中のload_smod()を呼び出すだけです。
 
 smoking_drinking_dataset_Ver01.csvはオリジナルのデータセットで、smoking_drinking_dataset_Ver01_mini.csvはそのうち先頭150サンプルです。
+※smoking_drinking_dataset_Ver01.csvは大きすぎてgithubに置けなかったので、オリジナルからダウンロードしてください。
+→ https://www.kaggle.com/datasets/sooyoungher/smoking-drinking-dataset
 テスト時など負荷軽減のためにminiデータセットをご使用ください。
 
 load_smod()の詳細は以下のとおりです。（コード中にも同じことが書かれています。）
