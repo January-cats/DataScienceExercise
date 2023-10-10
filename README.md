@@ -10,8 +10,8 @@ smoking_drinking_dataset_Ver01.csvはオリジナルのデータセットで、s
 テスト時など負荷軽減のためにminiデータセットをご使用ください。
 
 load_smod()の詳細は以下のとおりです。（コード中にも同じことが書かれています。）
-"""
-smoking drinking データセットの読み込み
+
+    smoking drinking データセットの読み込み
 
     params:
     --
@@ -39,4 +39,4 @@ smoking drinking データセットの読み込み
         drink_target_name : NymPy配列, shape = {n_samples, }
             正解ラベルの値がどの飲酒クラスに該当するかを書いたベクトル
 
-"""
+
